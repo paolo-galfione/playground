@@ -1,0 +1,2 @@
+# Esempio di partenza
+Per comprendere meglio i concetti che stanno alla base della Dependency Injection partiamo da un semplice esempio che implementa un Form per l'invio di un SMS e una componente Typescript che si occupa di inizializzare l'indirizzo, il testo del messaggio e ne permette la spedizione. L'
