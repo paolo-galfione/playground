@@ -1,0 +1,2 @@
+# Esempio moduli di alto livello e moduli di basso livello
+In questo esempio aggiungiamo solo la possibilità di scegliere quale tipo di canale utilizzare per inviare il messaggio, osservando come il codice dell'oggetto di alto livello, il MessageSender si debba occupare dei dettagli dei providers che potenzialmente potrebbe usare.

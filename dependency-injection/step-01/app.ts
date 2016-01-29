@@ -1,3 +1,5 @@
+// class library
+
 export class ShortMessageSender {
     private address: string;
     private text: string;
@@ -11,6 +13,8 @@ export class ShortMessageSender {
       return `Inviato un SMS al numero ${this.address} - Messaggio: ${this.text}`;
     }
 }
+
+// application
 
 let button = $("#button");
 button.click( function() {

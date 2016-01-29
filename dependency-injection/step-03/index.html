@@ -28,22 +28,30 @@
 
 <body>
     <div class="container">
-        <h3>Dependency Injection: Step 01 - start</h3>
+        <h3>Dependency Injection: Step 03 - la dipendenza e le sue conseguenze</h3>
         <div class="card">
             <h4 class="card-header">Invia messaggio: SMS</h4>
             <div class="card-block">
                 <div class="form-group">
+                    <label for="type">Invia come:</label>
+                    <select class="c-select" id="type">
+                        <option value="SMS" selected>SMS</option>
+                        <option value="TWEET">Tweet</option>
+                    </select>
+                </div>
+                <div class="form-group">
                     <label for="address">Indirizzo:</label>
-                    <input type="text" class="form-control" id="address" value="348123456">
+                    <input type="text" class="form-control" id="address" value="(Indirizzo)">
                 </div>
                 <div class="form-group">
                     <label for="message">Messaggio:</label>
-                    <input type="text" class="form-control" id="message" value="Hello SMS!">
+                    <input type="text" class="form-control" id="message" value="Hello World!">
                 </div>
                 <button id="button" class="btn btn-primary">Invia</button>
             </div>
         </div>
         <div id="notify"></div>
+    </div>
 </body>
 
 </html>
