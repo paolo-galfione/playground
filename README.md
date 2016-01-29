@@ -1,0 +1,2 @@
+# Playground repository
+Questo repo contiene una serie di esercitazioni, prove ed esempi elaborati a supporto dei corsi di formazioni e tutorial su vari argomenti che toccano la programmazione web, con particolare attenzione al mondo Typescript e Angular...ma non solo.
