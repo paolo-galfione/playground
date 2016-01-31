@@ -1,0 +1,2 @@
+# Esempio di injector
+In questo esempio implementiamo un semplicissimo injector che ci permette però di capire come in Angular 2, grazie ad una inizializzazione dei provider della dependency injection sia possibile ottenere facilmente lo stesso risultato
